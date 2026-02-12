@@ -44,7 +44,7 @@ template.innerHTML = html`
 `;
 
 /**
- * This web component emulates a U.S. traffic light
+ * This web component simulates a U.S. traffic light
  * with red, yellow, and green lights.
  * The `state` attribute specifies the initial state.
  * To advance to the next state, click the component
