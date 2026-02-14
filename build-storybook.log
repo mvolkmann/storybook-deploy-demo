@@ -1,12 +1,12 @@
 
 > build-storybook
-> storybook build --output-dir=/var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R --stats-json=/var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R
+> storybook build --output-dir=/var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5 --stats-json=/var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5
 
 
 [90m┌[39m  Building storybook v10.2.8
 [90m│[39m
 [32m◇[39m  Cleaning outputDir:
-[90m│[39m  [36m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R[39m
+[90m│[39m  [36m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5[39m
 [90m│[39m
 [32m◇[39m  Loading presets
 [90m│[39m
@@ -15,35 +15,35 @@
 [34m●[39m  Building preview..
 [90m│[39m  [43mVite[49m [36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
 [90m│[39m  [43mVite[49m transforming...
-[90m│[39m  [43mVite[49m [32m✓[39m 67 modules transformed.
+[90m│[39m  [43mVite[49m [32m✓[39m 84 modules transformed.
 [90m│[39m  [43mVite[49m rendering chunks...
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/[22m[32miframe.html[39m[1m[2m[22m
+[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/[22m[32miframe.html[39m[1m[2m[22m
 [90m│[39m  [2m18.38 kB[22m[1m[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/[22m[2massets/[22m[36mpreload-helper-PPVm8Dsz.js[39m[1m[2m[22m
+[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/[22m[2massets/[22m[36mpreload-helper-PPVm8Dsz.js[39m[1m[2m[22m
 [90m│[39m  [2m1.23 kB[22m[1m[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/[22m[2massets/[22m[36mtraffic-light.stories-C13rvUyL.js[39m[1m[2m[22m
-[90m│[39m  [2m2.35 kB[22m[1m[22m
+[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/[22m[2massets/[22m[36mhello-world.stories-4Fxqc7nj.js[39m[1m[2m[22m
+[90m│[39m  [2m2.47 kB[22m[1m[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/[22m[2massets/[22m[36mhello-world.stories-DMgeGw5O.js[39m[1m[2m[22m
-[90m│[39m  [2m2.36 kB[22m[1m[22m
+[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/[22m[2massets/[22m[36mhello-goodbye.stories-BwrdTa3P.js[39m[1m[2m[22m
+[90m│[39m  [2m2.74 kB[22m[1m[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/[22m[2massets/[22m[36mhello-goodbye.stories-BFxnn9t2.js[39m[1m[2m[22m
-[90m│[39m  [2m2.44 kB[22m[1m[22m
+[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/[22m[2massets/[22m[36mtraffic-light.stories-BTd8HgEK.js[39m[1m[2m[22m
+[90m│[39m  [2m3.20 kB[22m[1m[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/[22m[36mvite-inject-mocker-entry.js[39m[1m[2m[22m
+[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/[22m[36mvite-inject-mocker-entry.js[39m[1m[2m[22m
 [90m│[39m  [2m28.11 kB[22m[1m[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/[22m[2massets/[22m[36mmatchers-5TDFFDYO-HJu_DfWo.js[39m[1m[2m[22m
+[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/[22m[2massets/[22m[36mmatchers-5TDFFDYO-HJu_DfWo.js[39m[1m[2m[22m
 [90m│[39m  [2m29.23 kB[22m[1m[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/[22m[2massets/[22m[36maxe-CSB2hC93.js[39m[1m[33m[39m
-[90m│[39m  [33m579.76 kB[39m[22m
+[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/[22m[2massets/[22m[36maxe-DyI-o6cc.js[39m[1m[33m[39m
+[90m│[39m  [33m579.69 kB[39m[22m
 [90m│[39m  [43mVite[49m
-[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/[22m[2massets/[22m[36miframe-CcswlKXm.js[39m
-[90m│[39m  [36m[39m[1m[33m1,091.80 kB[39m[22m
+[90m│[39m  [2m../../../../../../../../var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/[22m[2massets/[22m[36miframe-CxcjovVj.js[39m
+[90m│[39m  [36m[39m[1m[33m1,120.65 kB[39m[22m
 [90m│[39m
 [33m▲[39m  [43mVite[49m[33m
 [90m│[39m  (!) Some chunks are larger than 500 kB after minification. Consider:
@@ -52,13 +52,13 @@
 [90m│[39m  ]8;;https://rollupjs.org/configuration-options/#output-manualchunkshttps://rollupjs.org/configuration-options/#output-manualchunks]8;;
 [90m│[39m  - Adjust chunk size limit for this warning via
 [90m│[39m  build.chunkSizeWarningLimit.[39m
-[90m│[39m  [43mVite[49m [32m✓ built in 2.97s[39m
+[90m│[39m  [43mVite[49m [32m✓ built in 2.93s[39m
 [90m│[39m
 [34m●[39m  Preview stats written to
-[90m│[39m  [36m/var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R/preview-stats.json[39m
+[90m│[39m  [36m/var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5/preview-stats.json[39m
 [90m│[39m
 [32m◇[39m  Output directory:
-[90m│[39m  /var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--2135-Lyhx5er1st8R
+[90m│[39m  /var/folders/zl/qytwq65j6yn278y4xf1n93s40000gp/T/chromatic--72643-2i2PjqKEwuD5
 [90m│[39m
 [90m└[39m  Storybook build completed successfully
 

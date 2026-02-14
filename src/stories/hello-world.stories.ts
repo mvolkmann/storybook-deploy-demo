@@ -6,7 +6,7 @@ import "../hello-world.ts";
 
 const component = "hello-world";
 let { args, argTypes, template } = getStorybookHelpers(component);
-const defaultName = "World";
+//const defaultName = "World";
 const meta: Meta = {
   component,
   /*
@@ -29,9 +29,9 @@ const meta: Meta = {
 };
 export default meta;
 
-const html = String.raw;
+type Story = StoryObj<typeof meta>;
 
-export const Default: StoryObj = {
+export const Primary: Story = {
   play: ({ canvasElement }) => {
     const helloWorld = canvasElement.querySelector("hello-world") as HelloWorld;
     expect(helloWorld).toBeInTheDocument();
@@ -43,12 +43,8 @@ export const Default: StoryObj = {
       expect(p).toHaveTextContent(`Hello, ${name}!`);
     }
 
-    // The "name" attribute is not set yet.
-    let name = "World";
-    verifyText(name);
-
     // Set the "name" attribute.
-    name = "Earth";
+    let name = "Earth";
     helloWorld.setAttribute("name", name);
     expect(helloWorld).toHaveProperty("name", name);
     verifyText(name);
@@ -58,10 +54,13 @@ export const Default: StoryObj = {
     helloWorld.name = name;
     expect(helloWorld).toHaveAttribute("name", name);
     verifyText(name);
+
+    name = "World";
+    helloWorld.setAttribute("name", name);
+    verifyText(name);
   },
 };
 
-export const Named: StoryObj = {
-  args: { name: "Earth" },
-  //render: () => html`<hello-world name="Earth" />`,
+export const Named: Story = {
+  args: { name: "Earth" } as Partial<Meta>,
 };

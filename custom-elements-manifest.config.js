@@ -1,5 +1,8 @@
 export default {
-  dev: true,
-  globs: ["src/**/*.{js,ts}"],
-  exclude: ["src/stories/**", "storybook-static/**"],
+  exclude: [
+    "coverage/**",
+    "custom-elements-manifest/**",
+    "src/stories/**",
+    "storybook-static/**",
+  ],
 };
